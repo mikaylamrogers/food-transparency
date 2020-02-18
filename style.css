@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+ /* import background gif for 'titlepage' */
+ background-image: url("back.gif");
+ /* do not repeat the background image */
+ background-repeat: no-repeat;
+ /* cover entire container space with background image */
+ background-size: cover;
+ /* align text in center */
+ text-align: center;
+ /* all text in chivo font */
+ font-family: 'Chivo';font-size: 13px;
+ /* all text is white */
+ color: white;
+}
+
+.recipes{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* 'stats' <div> text settings */
+.stats {
+  font-family: 'Chivo'; font-size: 70px;
+  line-height: 1.5;
+}
+
+.sources {
+  font-family: 'Chivo'; font-size: 13px;
+  line-height: 1.5;
+}
+
+/* 'about' <div> text settings */
+.about {
+  font-family: 'Chivo'; font-size: 70px;
+  line-height: 1.5;
+}
+
+.navs {
+  font-family: 'Chivo'; font-size: 30px;
+  line-height: 1.5;
+}
+
+/* 'organic' <div> text settings */
+.organic {
+    font-family: 'Chivo'; font-size: 70px;
+    line-height: 1.5;
+}
+
+/* stats navigation <div> text settings */
+.statsnav {
+  font-family: 'Chivo'; font-size: 80px;
+}
+
+/* make background blue & text green when mouse hovers over nav bar links */
+a:hover{
+  background-color: blue;
+  color: #76d955;
+}
+
+/* make text white when nav bar link has been visited */
+a:visited {
+  color: white;
+}
+
+/* nav bar link text is white */
+a:link {
+  color: white;
+}
+
+/* text settings for nav bar list */
+nav ul {
+    font-family: 'Chivo'; font-size: 250px;
+    /* remove bulletpoints from list */
+    list-style-type: none;
+    /* spacing of texts */
+    margin: 0;
+    padding: 0;
+    width: 100px;
+}
+
+li a {
+    /* remove the underline that comes with an a tag */
+    color: white;
+    text-decoration: none;
+    line-height: 0.2;
+    font-family: sans-serif;
+}
+
+/* make background blue & text green when mouse hovers over nav bar links */
+li a:hover {
+    background-color: blue;
+    color: #76d955;
+}
