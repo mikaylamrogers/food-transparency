@@ -17,9 +17,19 @@ body {
  color: white;
 }
 
-.recipes{
-  display: flex;
-  flex-wrap: wrap;
+div.gallery {
+  margin: 80px;
+  float: left;
+  width: 500px;
+}
+
+div.gallery img {
+  width: 222%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
 }
 
 /* 'stats' <div> text settings */
