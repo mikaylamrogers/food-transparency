@@ -1,3 +1,4 @@
+/* organize everything on page into borders */
 * {
   box-sizing: border-box;
 }
@@ -17,19 +18,17 @@ body {
  color: white;
 }
 
+/* gallery <div> position settings */
 div.gallery {
   margin: 80px;
   float: left;
   width: 500px;
 }
 
+/* width & height of each image in gallery <div> */
 div.gallery img {
   width: 222%;
   height: auto;
-}
-
-div.desc {
-  padding: 15px;
 }
 
 /* 'stats' <div> text settings */
@@ -38,6 +37,7 @@ div.desc {
   line-height: 1.5;
 }
 
+/* 'sources' <div> text settings */
 .sources {
   font-family: 'Chivo'; font-size: 13px;
   line-height: 1.5;
@@ -49,6 +49,7 @@ div.desc {
   line-height: 1.5;
 }
 
+/* 'navs' <div> text settings */
 .navs {
   font-family: 'Chivo'; font-size: 30px;
   line-height: 1.5;
