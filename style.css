@@ -8,7 +8,6 @@ body {
  background-repeat: no-repeat;
  /* cover entire container space with background image */
  background-size: cover;
- background-color: #fff;
  list-style-type: none;
  /* align text in center */
  text-align: left;
@@ -46,9 +45,9 @@ nav ul {
 /* 'stats' <div> text settings */
 .stats {
   display: flex;
-  margin: 0 10vmin 0 5vmin;
+  margin: 0 10vmin 0 10vmin;
   font-family: 'Work Sans';
-  font-size: 70px;
+  font-size: 40px;
   text-transform: uppercase;
   text-align: left;
   color: #76d955;
@@ -61,18 +60,34 @@ nav ul {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
 }
 
 /* 'organic' <div> text settings */
 .type {
-  /* display: flex; */
-  margin: 0 10vmin 0 5vmin;
-  font-family: 'Work Sans'; font-size: 70px;
+  margin: 0 10vmin 0 17vmin;
+  font-family: 'Work Sans';
+  font-size: 40px;
   text-transform: uppercase;
   text-align: left;
   color: #76d955;
   line-height: 1.3;
+}
+
+.threeColumnContainer ul {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.threeColumnContainer img {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  max-height: 70vh;
+  margin: 20px;
 }
 
 /* make background blue & text green when mouse hovers over nav bar links */
@@ -103,11 +118,4 @@ li a {
 li a:hover {
     background-color: blue;
     color: #76d955;
-}
-
-.threeColumnContainer {
-  width: 50%;
-  display: flex;
-  height: 50px;
-  object-fit: cover;
 }
